@@ -20,7 +20,7 @@ function App() {
   
   useEffect(() => {
     
-    const newsApiKey = 'a37daeefd7054f0dbdeef4e2e9c47cf7';
+    const newsApiKey = 'API_KEY';
     const newsApiUrl = `https://newsapi.org/v2/everything?q=finance&apiKey=${newsApiKey}`;
   
     Axios.get(newsApiUrl)
